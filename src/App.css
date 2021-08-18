@@ -1,0 +1,535 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Sombra';
+}
+
+
+body{
+  background-color: #7352FF;
+
+  
+}
+
+p{
+  color:black
+}
+
+.border-radius{
+
+  border-radius: 1rem;
+
+}
+
+.border{
+  border:none !important
+}
+
+.border-color{
+    border: 1px solid black;
+}
+.border-color1{
+  border: 1px solid white;
+}
+.nav-list{
+  margin-left: auto !important;
+}
+
+.nav-item{
+  padding-left: 3rem;
+  
+}
+.nav-link{
+  color:white !important;
+}
+
+
+.book{
+  border-radius: 2rem;
+}
+
+.nav-button{
+  margin:0 2rem;
+}
+
+
+.header-container{
+  height: 14rem;
+  top:3rem
+}
+
+.header-primary{
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.card-bg{
+  position: relative;
+  background-image: url('./Images/bg16.png');
+  object-fit: cover;
+}
+
+
+.container-card{
+
+    max-width: 58rem;
+    height: auto;
+    left: 13rem;
+    background-color: #7352FF;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    
+
+}
+
+
+.container-card-inside{
+
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+
+
+ 
+}
+.container-content{
+  margin-left: 3rem !important;
+}
+
+
+.image{
+  border: 2px solid #7352FF;
+  border-radius: 1rem;
+  
+}
+
+.col{
+  color: black;
+  width: fit-content;
+  max-width: fit-content;
+ 
+}
+
+
+.card-contents{
+  border-radius: 1rem;
+  border: 1px solid #7352FF;
+  color: black;
+  text-align: center;
+  padding: 0 1.5rem;
+  margin-bottom: 0;
+
+}
+
+.row-container{
+  width:fit-content;
+}
+
+.button-container{
+  margin-right: 2rem !important;
+}
+
+
+.btn-primary1, .btn-primary2{
+  width: 100%;
+  border-radius: .5rem;
+  padding:0.5rem 2.1rem;
+  
+  
+}
+
+.container-box{
+  height: fit-content;
+}
+
+.btn-primary1{
+  background-color: #7352FF !important;
+  color: white;
+
+}
+
+.btn-primary2{
+  background-color: #A5A5A5 !important;
+}
+
+.image-name{
+
+  margin-top: -2rem;
+  font-size: 3rem;
+  margin-left: 3rem;
+ }
+
+
+ .description-container{
+   margin-left: 3rem;
+   max-width: 30rem;
+
+ }
+
+ .logo-container{
+   margin-left: 3rem;
+ }
+ 
+
+ .logo{
+   color: black;
+   font-size: 1.2rem;
+   padding-right: 2rem;
+ }
+
+
+.container-email{
+  border: 1px solid grey;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  max-width: auto;
+  width: auto;
+  margin-bottom: 1.5rem ;
+}
+
+.yoga-image-container{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: auto;
+  display: flex;
+  justify-content: center;
+ margin-left: 4rem;
+ margin-right: 3rem ;
+}
+
+.youtube-container-content{
+    color: #7352FF;
+}
+.yoga-image{
+
+  width: 25rem;
+  height:auto;
+ 
+}
+
+.container-3{
+  margin-left: 2rem;
+
+}
+
+.container-fitness-1{
+  margin-top: 3rem;
+
+}
+
+
+.effect{
+  background-color: grey;
+  padding:0 .5rem;
+  text-align: center;
+  
+}
+
+.pad{
+  margin-left: 0.5rem;
+}
+
+
+.container-carousel{
+
+  background-color: black;
+  height: 35rem;
+  border-radius: 0 0 1rem 1rem ;
+
+  overflow: hidden;
+}
+
+.container-carousel1{
+  margin-left: -2.5rem;
+}
+
+.container-carousel3{
+  margin-right: -6rem;
+}
+
+
+.carousel-icons{
+  right: 46%;
+  top:115rem;
+}
+
+.container-footer{
+  height: 10rem;
+}
+
+
+@media screen and (max-width:512px){
+
+  .header-primary{
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .container-card{
+    border:none;
+    padding: 0px;
+  }
+
+  .m-5{
+    margin: 1rem !important;
+  }
+
+  .image{
+    width: 82px;
+    height:85px;
+  }
+
+  .container-box{
+      width: 100%;
+  }
+
+  
+
+  .yoga-image{
+    width:18rem;
+    height:auto;
+    padding:  0.1rem 0.5rem;
+   
+  }
+  .yoga-image-container{
+    margin-right:3rem;
+    margin-left: 0;
+  }
+
+  .youtube-container-content{
+    display: none;
+  }
+
+  .container-email{
+    margin-top: 0 !important;
+    padding: 0rem;
+    margin : 0rem;
+    width: auto;
+    height: 11.5%;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text{
+    margin: 0.5rem !important;
+  }
+  .container-email > p {
+    font-size: 12px;
+  }
+  
+  .subscribe-btn{
+    padding:0.5rem !important;
+  }
+  
+  .form-control{
+    font-size: 0.8rem;
+  }
+
+  .image-name{
+    margin: 0.5rem;
+  
+  }
+
+  .description-container{
+      margin-left: 1rem;
+      padding: 0.2rem;
+  }
+
+  .container-3{
+    margin-left: 0;
+  }
+
+  .youtube-container{
+    margin-bottom: 1rem;
+    border: none  !important;
+  }
+
+  .logo-container {
+    margin-left: 1rem;
+}
+
+
+.container-placeholder{
+  padding-bottom: 1rem !important;
+}
+
+
+
+  .youtube-container-text{
+    font-size: 1.5rem;
+
+  }
+
+  .youtube-container-align{
+      margin-top: 1.3rem !important;
+  }
+
+  .card-bg{
+    background-image: none;
+  }
+
+  .container-carousel1,.container-carousel3 > img{
+    display: none;
+  }
+  .carousel-image-2{
+    width: 20rem;
+    height:auto;
+  }
+  
+  .container-carousel{
+    margin-right: -0.5rem;
+    width: 100vh;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  .carousel-bg{
+    
+    height: 25rem;
+    background-color: black;
+   
+
+
+  }
+
+  .carousel-icons{
+    top:99rem;
+    
+  }
+  .carousel-icons  > i {
+    padding: .2rem;
+  }
+
+  .btn-primary1,
+  .btn-primary2{
+    padding: 0 0.5rem;
+    height: 2.3rem;
+    font-size: 0.8rem;
+
+  }
+
+  .card-contents{
+    font-size: 0.8rem;
+    padding: 0;
+    width: 3.2rem;
+  }
+
+  .container-box{
+    padding-top: 0.2rem !important;
+  }
+
+  .button-container{
+
+    padding-top: 1rem !important;
+
+    margin: 0 !important;
+  }
+  .row-container{
+    padding-top: 1rem;
+
+  }
+
+  .col-excersize{
+
+    padding: 0 !important;
+  }
+
+  .col-fitness{
+    margin: 0 !important;
+    padding: .6rem 0 0 0;
+
+  }
+
+  .container-footer{
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column ;
+  }
+
+  .container-footer-left{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .container-footer-right{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .copyright-container-1{
+    padding: 0;
+
+  }
+  
+  .copyright-container-1 > p{
+
+    margin-top: 0.6rem ;
+
+      font-size: 0.5rem;
+
+
+  }
+
+  .copyright-container-2{
+    margin-left: 3rem;
+
+  }
+
+  .copyright-container-2 > p{
+    padding-right: 0 !important;
+  }
+
+
+  .logo{
+padding-right: 1.2rem;  }
+
+
+}
+
+
+@media screen and (max-width:768px){
+
+
+  .yoga-image-container{
+    margin-left: 0;
+  }
+
+
+  .card-bg{
+    background-image: none;
+
+}
+
+.card-contents{
+ 
+  padding: 0 0.5rem;
+
+}
+.col-excersize{
+
+  margin-left: -2rem;
+  padding: 0 !important;
+}
+
+.btn-primary1, .btn-primary2{
+  width: 100%;
+  border-radius: .5rem;
+  padding:0 1rem;
+  
+}
+
+.button-container{
+  margin-right: 1rem !important;
+}
+
+.col-fitness{
+  margin-top: 1rem;
+  margin-left: -2.5rem;
+}
+
+}
